@@ -2,7 +2,6 @@ let slide_num = 0;
         $(document).ready(function(){
             $(window).scroll(function(){
                 sc=$(window).scrollTop();
-                $('#sc').text(sc)
                 if(sc>=1000 && sc<1700){
                     $('#con1_title').css({'right':(sc-1000)*1.5})
                 }
